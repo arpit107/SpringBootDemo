@@ -19,7 +19,7 @@ public class GreetingController {
 	
     @RequestMapping("/greeting")
     public String greeting(@RequestParam("name") String name) {
-        return "Hellooo " + name+" !!";
+        return "Helloo " + name+" !!";
     }
 
     @RequestMapping("/employees")
